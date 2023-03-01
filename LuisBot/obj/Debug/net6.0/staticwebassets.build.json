@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "tfeqnc6x9D00F19bhlJCoVKmSyw0DlGTrB38rZo0d64=",
+  "Source": "LuisBot",
+  "BasePath": "_content/LuisBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LuisBot\\wwwroot",
+      "Source": "LuisBot",
+      "ContentRoot": "C:\\Users\\rahul\\Desktop\\C#Playground\\LuisBot\\LuisBot\\wwwroot\\",
+      "BasePath": "_content/LuisBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rahul\\Desktop\\C#Playground\\LuisBot\\LuisBot\\wwwroot\\default.htm",
+      "SourceId": "LuisBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rahul\\Desktop\\C#Playground\\LuisBot\\LuisBot\\wwwroot\\",
+      "BasePath": "_content/LuisBot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
