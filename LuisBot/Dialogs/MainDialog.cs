@@ -29,12 +29,10 @@ namespace LuisBot.Dialogs
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
-
                IntroStepAsync,
                ActStepAsync,
                FinalStepAsync,
             }));
-
             // The initial child Dialog to run.  
             InitialDialogId = nameof(WaterfallDialog);
         }
@@ -71,7 +69,7 @@ namespace LuisBot.Dialogs
                 }, cancellationToken);
             }
 
-            return await stepContext.NextAsync(null, cancellationToken);
+            //return await stepContext.NextAsync(null, cancellationToken);
         }
 
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
